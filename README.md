@@ -52,6 +52,18 @@ The first slice includes:
 - The map scope is limited to a few small spaces.
 - The first version should not try to cover the full game scope. It should only validate the core feeling and loop.
 
+## Current Checkpoint
+
+The project is currently ready for M3.1: the first minimal PC ticket interaction smoke test.
+
+Completed:
+
+- M1: Project Foundation
+- M2: Basic Movement And Space
+- M2.5: Blockout Readability And Meeting Room Props
+
+See [Docs/PROJECT_STATUS.md](Docs/PROJECT_STATUS.md) for the current checkpoint, completed milestone notes, active constraints, and the next planned task.
+
 ## Milestone Plan
 
 ### M1: Project Foundation
