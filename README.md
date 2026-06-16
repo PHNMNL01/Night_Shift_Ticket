@@ -54,13 +54,14 @@ The first slice includes:
 
 ## Current Checkpoint
 
-The project is currently ready for M3.1: the first minimal PC ticket interaction smoke test.
+The project has completed and tested M3.1: First PC Ticket Interaction. The player can now approach the PC in the IT office, press E to open a simple ticket UI, press E again to close it, and walk away from the PC to close it automatically.
 
 Completed:
 
 - M1: Project Foundation
 - M2: Basic Movement And Space
 - M2.5: Blockout Readability And Meeting Room Props
+- M3.1: First PC Ticket Interaction
 
 See [Docs/PROJECT_STATUS.md](Docs/PROJECT_STATUS.md) for the current checkpoint, completed milestone notes, active constraints, and the next planned task.
 
@@ -86,6 +87,14 @@ See [Docs/PROJECT_STATUS.md](Docs/PROJECT_STATUS.md) for the current checkpoint,
 - display one ticket,
 - allow the player to accept or track the task,
 - return to the PC and update the ticket.
+
+Current M3 status:
+
+- M3.1 is complete and tested.
+- `WBP_TicketText` provides the simple screen-space ticket UI.
+- `BP_PC_TicketInteractable` owns the current local PC interaction logic.
+- The current behavior is intentionally minimal: E toggles the ticket while near the PC, walking away closes it, and E outside the interaction zone does nothing.
+- The next recommended step is M3.2, kept small: replace the debug "Press E" feedback with a simple on-screen interaction prompt, or add a minimal local ticket state such as New/Active/Viewed inside the PC actor. Do not create a full ticket manager yet.
 
 ### M4: Camera Mechanic
 
