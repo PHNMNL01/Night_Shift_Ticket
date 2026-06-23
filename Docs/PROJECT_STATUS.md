@@ -1,10 +1,10 @@
 # Project Status
 
-Last updated: 2026-06-16
+Last updated: 2026-06-23
 
 ## Current Checkpoint
 
-Night Shift Ticket is currently at the end of M3.1. The project has a playable first-person blockout route and a tested first PC ticket interaction in the IT office.
+Night Shift Ticket has completed M4 Camera Foundation. Camera mode and its overlay toggle are implemented and tested.
 
 ## Completed Milestones
 
@@ -60,6 +60,12 @@ Status: DONE
 - Pressing E outside the interaction zone does nothing.
 - Escape/Q close behavior was discussed as optional because Escape can stop PIE in the editor; the tested core behavior is E toggle plus EndOverlap close.
 
+### M4: Camera Foundation
+
+Status: DONE
+
+- Camera mode and the camera overlay toggle are implemented and tested.
+
 ## Current Constraints
 
 - Keep development in small verified steps.
@@ -67,7 +73,6 @@ Status: DONE
 - Do not add inventory yet.
 - Do not add save/load yet.
 - Do not add a full ticket manager or full ticket state machine yet.
-- Do not add the camera mechanic yet.
 - Do not introduce C++.
 - Do not add external frameworks or Fab assets.
 - Keep Blueprint work beginner-friendly and readable.
